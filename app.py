@@ -95,5 +95,5 @@ def _get_token_from_cache(scope=None):
 app.jinja_env.globals.update(_build_auth_code_flow=_build_auth_code_flow)  # Used in template
 
 if __name__ == "__main__":
-    app.run()
+    app.run(debug=True)
 

@@ -7,10 +7,6 @@
     "Service": "Microsoft Graph",
     "Endpoint": "Microsoft identity platform (formerly Azure AD v2.0)"
   },
-
-  /*
-    This section describes the Azure AD Applications to configure, and their dependencies
-  */
   "AADApps": [
     {
       "Id": "pythonwebapp",
